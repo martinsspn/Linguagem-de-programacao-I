@@ -5,7 +5,8 @@ class Veterinario: protected Funcionario{
 private:
 
 public:
-	
+	Tratador();
+	~Tratador();
 };
 
 #endif
