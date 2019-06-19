@@ -3,9 +3,11 @@
 
 class Anfibio: protected Animal{
 private:
-
+	int total_mudas;
+	date ultima_muda;
 public:
-	
+	anfibio();
+	~anfibio();	
 };
 
 #endif
