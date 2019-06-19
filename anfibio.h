@@ -6,8 +6,8 @@ private:
 	int total_mudas;
 	date ultima_muda;
 public:
-	anfibio();
-	~anfibio();	
+	Anfibio();
+	~Anfibio();	
 };
 
 #endif
