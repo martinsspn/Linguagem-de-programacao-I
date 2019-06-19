@@ -6,8 +6,8 @@ private:
 	double tamanho_bico;
 	double envergadura_asas;
 public:
-	ave();
-	~ave();
+	Ave();
+	~Ave();
 };
 
 #endif
