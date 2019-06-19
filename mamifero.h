@@ -6,8 +6,8 @@ private:
 	string cor_pelo;
 
 public:
-	mamifero();
-	~mamifero();
+	Mamifero();
+	~Mamifero();
 };
 
 #endif
