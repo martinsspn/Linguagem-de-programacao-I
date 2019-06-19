@@ -3,9 +3,11 @@
 
 class Ave: protected Animal{
 private:
-
+	double tamanho_bico;
+	double envergadura_asas;
 public:
-	
+	ave();
+	~ave();
 };
 
 #endif
