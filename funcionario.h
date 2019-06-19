@@ -12,7 +12,7 @@ class Funcionario
 		char fator_rh;
 		string especialidade;
 	public:
-		virtual void f() = 0; //função genérica pra dizer que a classe é abstrata. Tem que ver o que tanto o veterinário quanto o tratador podem fazer
+		virtual void consultar_funcionario() = 0;
 		Funcionario();
 		~Funcionario();
 		
