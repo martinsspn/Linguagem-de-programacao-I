@@ -7,8 +7,8 @@ private:
 	string tipo_veneno;
 
 public:
-	reptil();
-	~reptil();
+	Reptil();
+	~Reptil();
 };
 
 #endif
