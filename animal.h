@@ -16,6 +16,7 @@ class Animal{
 		virtual void f()//função genérica pra dizer que a classe é abstrata. Tem que ver o que todos os animais podem fazer
 		Animal();
 		~Animal();
+		consultar_animal();
 		
 };
 
