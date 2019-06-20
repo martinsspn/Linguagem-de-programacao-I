@@ -13,9 +13,9 @@ class Animal{
 		TRATADOR tratador;
 		string nome_batismo;
 	public:
-		virtual void f()//função genérica pra dizer que a classe é abstrata. Tem que ver o que todos os animais podem fazer
 		Animal();
 		~Animal();
+		virtual void consultar_animal() = 0;
 		
 };
 

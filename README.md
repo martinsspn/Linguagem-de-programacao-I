@@ -1,1 +1,1 @@
-Alunos: Acsa Layane, Daniele Mendonça, Gabriel Lucas, Gabriel Martins, Maria Luiza
+Alunos: Acsa Laiane, Daniele Mendonça, Gabriel Lucas, Gabriel Martins, Maria Luiza
