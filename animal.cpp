@@ -1,6 +1,7 @@
 #include <animal.h>
 
 using namespace std;
+
 Animal::Animal(int id, string classe, string nome_cientifico,char sexo, double tamanho, string dieta, VETERINARIO veterinario, TRATADOR tratador, string nome_batismo){
 	this->id = id;
 	this->classe = classe;
@@ -65,7 +66,7 @@ void Animal::setVeterinario(VETERINARIO veterinario){
 	this->veterinario = veterinario;
 };
 
-VETERINARIO Animal::getVeterinario(){
+Veterinario Animal::getVeterinario(){
 	return this->veterinario;
 };
 
@@ -73,7 +74,7 @@ void Animal::setTratador(TRATADOR tratador){
 	this->tratador = tratador;
 };
 
-TRATADOR Animal::getTratador(){
+Tratador Animal::getTratador(){
 	return this->tratador;
 };
 
