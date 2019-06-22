@@ -2,7 +2,7 @@
 
 using namespace std;
 
-Reptil::Reptil(bool veneno, string tipo_veneno)
+Reptil::Reptil(bool veneno, string tipo_veneno) : Animal(Veterinario veterinario, Tratador tratador, int id, string classe, string nome_cientifico, char sexo, double tamanho, string dieta, string nome_batismo){
 	this->veneno = veneno;
 	this->tipo_veneno = tipo_veneno;
 };
