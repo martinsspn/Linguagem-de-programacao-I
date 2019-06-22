@@ -6,8 +6,12 @@ private:
 	double tamanho_bico;
 	double envergadura_asas;
 public:
-	Ave();
+	Ave(double tamanho_bico, double envergadura_asas);
 	~Ave();
+	void setTamanho_bico(double tamanho_bico);
+	double getTamanho_bico();
+	void setEnvergadura_asas(double envergadura_asas);
+	double getEnvergadura_asas();
 };
 
 #endif

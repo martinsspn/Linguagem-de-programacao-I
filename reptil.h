@@ -7,7 +7,11 @@ private:
 	string tipo_veneno;
 
 public:
-	Reptil();
+	Reptil(bool veneno, string tipo_veneno);
+	void setVeneno(bool veneno);
+	bool getVeneno();
+	void setTipo_veneno(string tipo_veneno);
+	string getTipo_veneno();
 	~Reptil();
 };
 

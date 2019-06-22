@@ -7,7 +7,9 @@ private:
 	date ultima_muda;
 public:
 	Anfibio(Veterinario veterinario, Tratador tratador, int id = 0, string classe = "", string nome_cientifico = "", char sexo = '', double tamanho = 0, string dieta = "", string nome_batismo = "", int total_mudas = 0, date ultima_muda = 0);
-	~Anfibio();	
+	~Anfibio();
+	void setTotal_mudas(int total_mudas);
+	int setTotal_mudas();
 };
 
 #endif
