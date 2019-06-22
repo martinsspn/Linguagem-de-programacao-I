@@ -30,6 +30,27 @@ void Sistema::displayClasses(){
 
 }
 
+void Sistema::setStructAnimal(){
+	cout << "Digite o ID: ";
+	cin >> this->animal._id;
+	cout << "Digite o nome cientifico: "; 
+	cin >> this->animal._nome_cientifico;
+	cout << "Digite o nome batismo: "; 
+	cin >> this->animal._nome_batismo;
+	cout << "Digite a dieta: "; 
+	cin >> this->animal._dieta;
+	cout << "Digite o sexo[m/f]: "; 
+	cin >> this->animal._sexo;
+	cout << "Digite se é ameacado a extincao[true/false]: "; 
+	cin >> this->animal._ameacadoExtincao;
+	/*cout << "Digite o nome do veterinario: "; 
+	cin >> this->animal._nome_veterinario;
+	cout << "Digite o nome do tratador: "; 
+	cin >> this->animal._nome_tratador;
+	essa implementação requer outros elementos:
+		map de funcionários*/	
+}
+
 void Sistema::operarSistema(){
 	string classe;
 	fstream dadosAnimais;
@@ -44,18 +65,9 @@ void Sistema::operarSistema(){
 			break;
 
 		case 1:
-			int _id;
-			double _tamanho;
-			string _classe;
-			string _nome_cientifico;
-			string _nome_batismo;
-			string _dieta;
-			char _sexo;
-			bool _ameacadoExtincao;
-			Veterinario _veterinario;
-			Tratador _tratador;
 			Animal* animal;
 			Sistema::displayClasses();
+			Sistema::setStructAnimal();
 			switch(this -> selecaoClasses){
 				case 1:
 					animal = new Anfibio();
@@ -79,7 +91,6 @@ void Sistema::operarSistema(){
 		default:
 			cout << "Seleção inválida. Por favor, selecione uma opção válida." << endl;
 			Sistema::displayMenu();
-			break;
 	}
 }
 
