@@ -2,7 +2,7 @@
 
 using namespace std;
 
-Mamifero::Mamifero(string cor_pelo){
+Mamifero::Mamifero(string cor_pelo) : Animal(Veterinario veterinario, Tratador tratador, int id, string classe, string nome_cientifico, char sexo, double tamanho, string dieta, string nome_batismo){
 	this->cor_pelo = cor_pelo;
 };
 
