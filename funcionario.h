@@ -8,12 +8,24 @@ class Funcionario
 		string nome;
 		string cpf;
 		short idade;
-		short tipo_sanguineo;
+		string tipo_sanguineo;
 		char fator_rh;
 		string especialidade;
 	public:
-		virtual void consultar_funcionario() = 0;
-		Funcionario();
+		virtual void consultar() = 0;
+		Funcionario(int id, string nome, string cpf, short idade, string tipo_sanguineo, char fator_rh, string especialidade);
+		void setId(int id);
+		int getId();
+		void setNome(string nome);
+		string getNome();
+		void setCpf(string cpf);
+		string getCpf();
+		void setIdade(short idade);
+		short getIdade();
+		void setTipo_sanguineo(string tipo_sanguineo);
+		string getTipo_sanguineo();
+		void setFator_rh(char fator_rh);
+		char getFator_rh();
 		~Funcionario();
 		
 };
