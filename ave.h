@@ -6,7 +6,7 @@ private:
 	double tamanho_bico;
 	double envergadura_asas;
 public:
-	Ave(double tamanho_bico, double envergadura_asas);
+	Ave(double tamanho_bico, double envergadura_asas) : Animal(Veterinario veterinario, Tratador tratador, int id, string classe, string nome_cientifico, char sexo, double tamanho, string dieta, string nome_batismo);
 	~Ave();
 	void setTamanho_bico(double tamanho_bico);
 	double getTamanho_bico();
